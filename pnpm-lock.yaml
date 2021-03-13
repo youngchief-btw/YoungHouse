@@ -1,0 +1,105 @@
+dependencies:
+  node: 15.10.0
+  npm: 7.6.3
+  prettier: 2.2.1
+lockfileVersion: 5.2
+packages:
+  /node-bin-setup/1.0.6:
+    dev: false
+    resolution:
+      integrity: sha512-uPIxXNis1CRbv1DwqAxkgBk5NFV3s7cMN/Gf556jSw6jBvV7ca4F9lRL/8cALcZecRibeqU+5dFYqFFmzv5a0Q==
+  /node/15.10.0:
+    dependencies:
+      node-bin-setup: 1.0.6
+    dev: false
+    engines:
+      npm: ">=5.0.0"
+    hasBin: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-JboERsul33BpTDeth8SsGWg/gTZfNEWGMT5HVqIoyepRwAARznCjwdWvLHHd/A9bvAYFp5zaq46RnVArWz44kA==
+  /npm/7.6.3:
+    bundledDependencies:
+      - "@npmcli/arborist"
+      - "@npmcli/ci-detect"
+      - "@npmcli/config"
+      - "@npmcli/run-script"
+      - abbrev
+      - ansicolors
+      - ansistyles
+      - archy
+      - byte-size
+      - cacache
+      - chalk
+      - chownr
+      - cli-columns
+      - cli-table3
+      - columnify
+      - glob
+      - graceful-fs
+      - hosted-git-info
+      - ini
+      - init-package-json
+      - is-cidr
+      - json-parse-even-better-errors
+      - leven
+      - libnpmaccess
+      - libnpmdiff
+      - libnpmfund
+      - libnpmhook
+      - libnpmorg
+      - libnpmpack
+      - libnpmpublish
+      - libnpmsearch
+      - libnpmteam
+      - libnpmversion
+      - make-fetch-happen
+      - minipass
+      - minipass-pipeline
+      - mkdirp
+      - mkdirp-infer-owner
+      - ms
+      - node-gyp
+      - nopt
+      - npm-audit-report
+      - npm-package-arg
+      - npm-pick-manifest
+      - npm-profile
+      - npm-registry-fetch
+      - npm-user-validate
+      - npmlog
+      - opener
+      - pacote
+      - parse-conflict-json
+      - qrcode-terminal
+      - read
+      - read-package-json
+      - read-package-json-fast
+      - readdir-scoped-modules
+      - rimraf
+      - semver
+      - ssri
+      - tar
+      - text-table
+      - tiny-relative-date
+      - treeverse
+      - validate-npm-package-name
+      - which
+      - write-file-atomic
+    dev: false
+    engines:
+      node: ">=10"
+    hasBin: true
+    resolution:
+      integrity: sha512-+Cs8TEtkfdQGTIPw8AeqVtNNHyo1Zw8HATzAFFWYnK7jQYgT/CatEy85+BlEoEpqvga2uaKqVrXsTAYj28emjg==
+  /prettier/2.2.1:
+    dev: false
+    engines:
+      node: ">=10.13.0"
+    hasBin: true
+    resolution:
+      integrity: sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==
+specifiers:
+  node: ^15.10.0
+  npm: ^7.6.3
+  prettier: ^2.2.1
